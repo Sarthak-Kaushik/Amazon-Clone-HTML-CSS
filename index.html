@@ -14,8 +14,12 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- CREATING LOGO OF THE WEBSITE -->
+
     <nav class="navbar">
       <div class="nav-logo border"></div>
+
+      <!-- CREATING LOCATION DIV OF THE NAVBAR -->
 
       <div class="nav-location border">
         <p class="add-first">Deliver to</p>
@@ -23,6 +27,34 @@
           <i class="fa-solid fa-location-dot"></i>
           <p class="add-second">India</p>
         </div>
+      </div>
+
+      <!-- CREATING SEARCH BAR INSIDE NAVBAR FOR THE PROJECT -->
+
+      <div class="nav-search border">
+        <select name="category" id="nav-select">
+          <option value="all">All</option>
+          <option value="mobile">Mobiles</option>
+          <option value="fashion">Fashion</option>
+          <option value="electronics">Electronics</option>
+          <option value="home">Home</option>
+          <option value="appliances">Appliances</option>
+          <option value="books">Books</option>
+          <option value="beauty">Beauty</option>
+          <option value="toys">Toys</option>
+          <option value="grocery">Grocery</option>
+          <option value="sports">Sports</option>
+          <option value="health">Health</option>
+          <option value="automotive">Automotive</option>
+        </select>
+        <input
+          type="text"
+          class="nav-search-input"
+          placeholder="Search Amazon"
+        />
+        <button class="nav-search-button">
+          <i class="fa-solid fa-search"></i>
+        </button>
       </div>
     </nav>
   </body>
